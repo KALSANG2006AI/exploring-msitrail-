@@ -2,7 +2,7 @@ import json
 import ollama
 
 # Load JSON data
-with open("data/Collegedata.json", "r", encoding="utf-8") as file:
+with open("Collegedata.json", "r", encoding="utf-8") as file:
     college_data = json.load(file)
 
 model = "mistral:7b-instruct"
